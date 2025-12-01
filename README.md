@@ -1,14 +1,12 @@
----
-
-⭐ VR Memory Game
+# ⭐ VR Memory Game
 
 A Virtual Reality Serious Game for Short-Term Memory Training & Evaluation
-Developed in Unity (C#) — Academic Project / Bachelor Thesis
+Developed in Unity (C#)
 
 
 ---
 
-📌 Overview
+# 📌 Overview
 
 VR Memory Game is a virtual reality serious game designed to train and evaluate short-term memory.
 Each level consists of two phases:
@@ -27,7 +25,7 @@ The game is built using Unity, C#, and XR Interaction Toolkit, and runs on Meta 
 
 ---
 
-🎯 Key Features
+* 🎯 Key Features
 
 ✔ Two-Phase Memory Challenge: Target Memorization → Object Recognition
 
@@ -49,7 +47,7 @@ The game is built using Unity, C#, and XR Interaction Toolkit, and runs on Meta 
 
 ---
 
-🧠 Game Concept
+# 🧠 Game Concept
 
 The main objective is to challenge the player's short-term memory capacity through increasing cognitive load:
 
@@ -80,7 +78,7 @@ Gameplay Logic
 
 ---
 
-🕹 Gameplay Flow
+# 🕹 Gameplay Flow
 
 1. Target Presentation
 
@@ -96,48 +94,11 @@ Points are awarded for correct hits, and lives are lost for mistakes.
 
 4. Difficulty Scaling
 
-Difficulty increases according to the following level structure:
-
-Level Number of Targets Total Objects
-
-1 4 10
-2 5 15
-3 6 20
-4 7 25
-5 8 30
-
 
 
 ---
 
-🏛 Project Structure
-
-Assets/
-│── Scripts/
-│    ├── GameSession.cs
-│    ├── LevelManager.cs
-│    ├── ObjectManagement.cs
-│    ├── ObjectSpawner.cs
-│    ├── ObjectShredder.cs
-│    ├── ScoreTextUI.cs
-│    ├── TimeTextUI.cs
-│    ├── DataLogger.cs
-│    ├── VFXSystem.cs
-│    ├── SFXPlayer.cs
-│    └── Stick.cs
-│
-│── Prefabs/
-│── Scenes/
-│── Materials/
-│── Audio/
-│── Models/
-│── Textures/
-│── UI/
-
-
----
-
-🧩 Script Responsibilities
+# 🧩 Script Responsibilities
 
 GameSession.cs
 
@@ -185,7 +146,7 @@ Provides visual and audio feedback for correct hits, mistakes, and interactions.
 
 ---
 
-🛠 Technologies Used
+# 🛠 Technologies Used
 
 Unity (2022 LTS / 2023 LTS)
 
@@ -201,7 +162,7 @@ Visual Studio / Rider
 
 ---
 
-🚀 How to Run
+# 🚀 How to Run
 
 Requirements
 
@@ -248,7 +209,7 @@ OpenXR enabled
 
 ---
 
-📊 Data Logging
+# 📊 Data Logging
 
 After completing a session, the game saves:
 
@@ -264,7 +225,7 @@ The data can be used to evaluate the player’s performance over time.
 
 ---
 
-🗺 Roadmap
+# 🗺 Roadmap
 
 [ ] Add more environments & themed levels
 
@@ -282,26 +243,24 @@ The data can be used to evaluate the player’s performance over time.
 
 ---
 
-🎓 Academic Context
+# 🎓 Academic Context
 
 This project is part of a Bachelor Thesis titled:
 “Designing a VR Game for Short-Term Memory Training and Evaluation”
 
-Supervisor: Dr. Reza Alibesaeghzadeh
-
 
 ---
 
-📜 License
+# 📜 License
 
 MIT License
 
 
 ---
 
-👤 Developer
+# 👤 Developer
 
-Alireza Pehlvanzadeh
+Alireza Pahlevanzadeh
 GitHub: https://github.com/alrrezz
 
 
