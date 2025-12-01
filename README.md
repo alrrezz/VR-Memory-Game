@@ -25,7 +25,7 @@ The game is built using Unity, C#, and XR Interaction Toolkit, and runs on Meta 
 
 ---
 
-* 🎯 Key Features
+# 🎯 Key Features
 
 ✔ Two-Phase Memory Challenge: Target Memorization → Object Recognition
 
