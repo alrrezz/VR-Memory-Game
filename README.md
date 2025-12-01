@@ -80,60 +80,61 @@ Gameplay Logic
 
 # 🕹 Gameplay Flow
 
-* 1. Target Presentation
+**1. Target Presentation**
 
 A small set of target objects appears for a limited time.
 
-* 2. Object Identification Phase
+**2. Object Identification Phase**
 
 A larger group of objects spawns; only some of them match the previously shown targets.
 
-* 3. Scoring
+**3. Scoring**
 
 Points are awarded for correct hits, and lives are lost for mistakes.
 
-* 4. Difficulty Scaling
+**4. Difficulty Scaling**
 
+Difficulty increses by the time goes.
 
 
 ---
 
 # 🧩 Script Responsibilities
 
-* ✔ GameSession.cs
+**✔ GameSession.cs**
 
 Manages global game flow, player lives, current level, and final game result.
 
-* ✔ LevelManager.cs
+**✔ LevelManager.cs**
 
 Controls difficulty progression: number of targets, total objects, and speed.
 
-* ✔ ObjectManagement.cs
+**✔ ObjectManagement.cs**
   
 Selects target objects, prepares object lists for each level, and manages phase transitions.
 
-* ✔ ObjectSpawner.cs
+**✔ ObjectSpawner.cs**
   
 Spawns objects with specific movement parameters and timing.
 
-* ✔ ObjectShredder.cs
+**✔ ObjectShredder.cs**
   
 Destroys objects leaving the play area to preserve performance.
 
-* ✔ Stick.cs
+**✔ Stick.cs**
   
 Handles VR collisions and determines whether the player hits a correct or incorrect object.
 
-* ✔ ScoreTextUI.cs / TimeTextUI.cs
+**✔ ScoreTextUI.cs / TimeTextUI.cs**
   
 Updates UI elements for score, time, and game messages.
 
-* ✔ DataLogger.cs
+**✔ DataLogger.cs**
   
 Saves Final Score, Total Time, Completion Date
 
 
-* ✔ VFXSystem.cs / SFXPlayer.cs
+**✔ VFXSystem.cs / SFXPlayer.cs**
   
 Provides visual and audio feedback for correct hits, mistakes, and interactions.
 
