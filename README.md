@@ -100,47 +100,32 @@ Points are awarded for correct hits, and lives are lost for mistakes.
 
 # 🧩 Script Responsibilities
 
-GameSession.cs
-
+* ✔ GameSession.cs
 Manages global game flow, player lives, current level, and final game result.
 
-LevelManager.cs
-
+* ✔ LevelManager.cs
 Controls difficulty progression: number of targets, total objects, and speed.
 
-ObjectManagement.cs
-
+* ✔ ObjectManagement.cs
 Selects target objects, prepares object lists for each level, and manages phase transitions.
 
-ObjectSpawner.cs
-
+* ✔ ObjectSpawner.cs
 Spawns objects with specific movement parameters and timing.
 
-ObjectShredder.cs
-
+* ✔ ObjectShredder.cs
 Destroys objects leaving the play area to preserve performance.
 
-Stick.cs
-
+* ✔ Stick.cs
 Handles VR collisions and determines whether the player hits a correct or incorrect object.
 
-ScoreTextUI.cs / TimeTextUI.cs
-
+* ✔ ScoreTextUI.cs / TimeTextUI.cs
 Updates UI elements for score, time, and game messages.
 
-DataLogger.cs
-
-Saves:
-
-Final Score
-
-Total Time
-
-Completion Date
+* ✔ DataLogger.cs
+Saves Final Score, Total Time, Completion Date
 
 
-VFXSystem.cs / SFXPlayer.cs
-
+* ✔ VFXSystem.cs / SFXPlayer.cs
 Provides visual and audio feedback for correct hits, mistakes, and interactions.
 
 
