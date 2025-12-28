@@ -248,7 +248,11 @@ This project is part of a Bachelor Thesis titled:
 
 # 📜 License
 
-MIT License
+## License
+This project is licensed under the **Creative Commons Attribution–NonCommercial 4.0 International (CC BY-NC 4.0)**.
+
+You are free to use, modify, and learn from this project for **non-commercial purposes only**.
+Commercial use is **not allowed** without explicit permission from the author.
 
 
 ---
